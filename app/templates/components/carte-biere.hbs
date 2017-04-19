@@ -1,0 +1,12 @@
+<article class="elemBiere">
+    <h3>{{biere.nom}}</h3>
+    <p>Brasserie: {{biere.brasserie}}</p>
+    {{#if biere.image}}
+        <img src="{{biere.image}}">
+    {{else}}
+        <img src="http://placehold.it/200x200">
+    {{/if}}
+    {{#link-to 'biere-solo' biere.id_biere class="boutonEntete"}}
+        Détail
+    {{/link-to}}
+</article>

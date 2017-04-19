@@ -1,0 +1,9 @@
+@import url("accueil.css");
+@import url("entete.css");
+@import url("biere.css");
+@import url("carte-biere.css");
+
+
+body{
+    font-family: arial;
+}

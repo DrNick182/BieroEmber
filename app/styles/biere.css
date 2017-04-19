@@ -1,0 +1,10 @@
+.listeBiere{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.listeBiereElem{
+    width: 20%;
+    margin-right: 2em;
+}

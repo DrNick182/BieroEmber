@@ -1,0 +1,44 @@
+.entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#FFA000;
+    color: #FFD54F;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto 0 auto 2em;
+}
+
+.presentation h1{
+    margin: 0 0 0 0.5em;
+}
+
+.logoBiero{
+    width: 8em;
+    height: 8em;
+    fill:#FFD54F;
+}
+
+.listeLiens{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.listeLiens .boutonEntete{
+    display: block;
+    border: 3px #FFD54F solid;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFD54F;
+}

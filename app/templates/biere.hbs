@@ -1,0 +1,6 @@
+<h2>Liste des bières</h2>
+<div class="listeBiere">
+    {{#each model as |listeBiere|}}
+         {{carte-biere biere=listeBiere class="listeBiereElem"}}
+    {{/each}}
+</div>

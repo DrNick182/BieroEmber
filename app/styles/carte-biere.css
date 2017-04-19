@@ -1,0 +1,13 @@
+.elemBiere{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: #FFA000 3px solid;
+    border-radius: 3em;
+    color: #FFA000;
+}
+
+.elemBiere img{
+    max-width: 200px;
+}
